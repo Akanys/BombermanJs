@@ -1,3 +1,13 @@
+/*Player*/
+.player
+{
+    position: absolute ;
+    left: 0px;
+    top: 0px;
+    width: 60px ;
+    height: 60px ;
+    z-index: 2 ; 
+}
 /* Couleurs carte */
 .sol
 {
@@ -5,7 +15,6 @@
     width: 60px ;
     height: 60px ;
     background-color:#6BBE6B ;
-    border: 2px black solid ;
 }
 .bord
 {
@@ -13,7 +22,6 @@
     width: 60px ;
     height: 60px ;
     background-color:black ;
-    border: 2px black solid ;
 }
 /* Position des deux cartes carteSol et carteObjet */
 .container
@@ -26,12 +34,6 @@
     left: 0px;
     top: 0px;
     z-index: 1;
-}
-#carteSol
-{
-    left: 0px;
-    top: 0px;
-    z-index: 2;
 }
 /*Fin position cartes*/
 /*Position des blocks des sols */
