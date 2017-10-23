@@ -9,10 +9,11 @@ Réfèrences des id et des classes :
     Ennemi 2            :
     Ennemi 3            :
     Ennemi 4            :
-    Sol                 :
+    Sol                 : de #l1c1 à #l10c10
+    Bordure Map         : toute les lignes et colognes 0 
     Block indestructible:
     Block destructible  :
-    Bordure Map         :
+
 
 Rollon : Je vous propose la map en html configurer comme ceci premiere carte avec ligne et colone 
         de 0 à 11. id b = bordure l = ligne c = cologne .
