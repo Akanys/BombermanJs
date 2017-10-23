@@ -1,11 +1,12 @@
 /*Player*/
-.player
+#player
 {
     position: absolute ;
     left: 0px;
     top: 0px;
     width: 60px ;
     height: 60px ;
+    background-color: goldenrod ;
     z-index: 2 ; 
 }
 /* Couleurs carte */
@@ -15,6 +16,7 @@
     width: 60px ;
     height: 60px ;
     background-color:#6BBE6B ;
+    border: 3px black solid ;
 }
 .bord
 {
@@ -28,6 +30,7 @@
 {
     position: relative ;
     margin: auto ;
+    height: 720px;
 }
 #carteSol
 {
