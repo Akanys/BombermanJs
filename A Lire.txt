@@ -1,0 +1,15 @@
+Merci de renseigner ou proposer les noms de ce que vous fabriquer.
+ 
+Réfèrences des id et des classes : 
+    Personnage principal :
+    Personnage joueur 2 :
+    Personnage joueur 3 :
+    Personnage joueur 4 :
+    Ennemi              :
+    Ennemi 2            :
+    Ennemi 3            :
+    Ennemi 4            :
+    Sol                 :
+    Block indestructible:
+    Block destructible  :
+    Bordure Map         :
