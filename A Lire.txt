@@ -2,20 +2,24 @@ Merci de renseigner ou proposer les noms de ce que vous fabriquer.
  
 Réfèrences des id et des classes : 
     Personnage principal : id="perso"
-    Personnage joueur 2 :
-    Personnage joueur 3 :
-    Personnage joueur 4 :
-    Ennemi              :
-    Ennemi 2            :
-    Ennemi 3            :
-    Ennemi 4            :
     Sol                 : de #l1c1 à #l10c10
-    Bordure Map         : toute les lignes et colognes 0 
-    Block indestructible:
-    Block destructible  :
+    Bordure Map         : toute les lignes et colognes sont à 0 
 
 
-Rollon : Je vous propose la map en html configurer comme ceci premiere carte avec ligne et colone 
-        de 0 à 11. id b = bordure l = ligne c = cologne .
+Rollon : Pour faire correspondre ou intèragir nos blocks ils nous faut attribuer des valeurs :
+Valeurs déjà attribuer avec data-valeur en html
+en début d'init de carteBinaire
+Bord et solvide ='0'
+Espace libre    ='1'
 
-        une deuxieme carte pour le positionnement des elements comme au echec de a0 à l11
+aprés init début on init les itèmes 
+feuille        ='2'
+pot            ='3'
+Espace libre   ='1'
+
+en cours de parti 
+ennemi          ='4'
+bombe bleu      ='8'
+bombe rouge     ='9'
+bonus ...
+
