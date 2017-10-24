@@ -1,3 +1,8 @@
+
+body{
+    background-color:#6BBE6B ;
+}
+
 /*Player*/
 #player
 {
@@ -57,6 +62,8 @@
     position: relative ;
     margin: auto ;
     height: 720px;
+    width: 720px;
+    margin-top: 30px;
 }
 #carteSol
 {
@@ -167,6 +174,8 @@
 }
 #l1-c1 
 {
+    background-image: url("bomberpng/herb1.png") ;
+    background-size: cover ;
     left: 60px;
     top: 60px;
 }
@@ -177,21 +186,29 @@
 }
 #l1-c3 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 180px;
     top: 60px;
 }
 #l1-c4 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 240px;
     top: 60px;
 }
 #l1-c5 
 {
+    background-image: url("bomberpng/pot.png") ;
+    background-size: cover ;
     left: 300px;
     top: 60px;
 }
 #l1-c6 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 360px;
     top: 60px;
 }
@@ -202,11 +219,15 @@
 }
 #l1-c8
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 480px;
     top: 60px;
 }
 #l1-c9 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 540px;
     top: 60px;
 }
@@ -248,6 +269,8 @@
 }
 #l2-c3 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 180px;
     top: 120px;
 }
@@ -260,6 +283,8 @@
 }
 #l2-c5 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 300px;
     top: 120px;
 }
@@ -272,6 +297,8 @@
 }
 #l2-c7 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 420px;
     top: 120px;
 }
@@ -284,6 +311,8 @@
 }
 #l2-c9 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 540px;
     top: 120px;
 }
@@ -296,6 +325,8 @@
 }
 #l2-c11 
 {
+    background-image: url("bomberpng/herb.png") ;
+    background-size: cover ;
     left: 660px;
     top: 120px;
 }
@@ -315,6 +346,8 @@
 }
 #l3-c1 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 60px;
     top: 180px;
 }
@@ -325,46 +358,64 @@
 }
 #l3-c3 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 180px;
     top: 180px;
 }
 #l3-c4 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 240px;
     top: 180px;
 }
 #l3-c5 
 {
+    background-image: url("bomberpng/herb.png") ;
+    background-size: cover ;
     left: 300px;
     top: 180px;
 }
 #l3-c6 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 360px;
     top: 180px;
 }
 #l3-c7 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 420px;
     top: 180px;
 }
 #l3-c8
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 480px;
     top: 180px;
 }
 #l3-c9 
 {
+    background-image: url("bomberpng/herb.png") ;
+    background-size: cover ;
     left: 540px;
     top: 180px;
 }
 #l3-c10 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 600px;
     top: 180px;
 }
 #l3-c11 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 660px;
     top: 180px;
 }
@@ -384,6 +435,8 @@
 }
 #l4-c1 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 60px;
     top: 240px;
 }
@@ -396,6 +449,8 @@
 }
 #l4-c3 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 180px;
     top: 240px;
 }
@@ -408,6 +463,8 @@
 }
 #l4-c5 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 300px;
     top: 240px;
 }
@@ -420,6 +477,8 @@
 }
 #l4-c7 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 420px;
     top: 240px;
 }
@@ -432,6 +491,8 @@
 }
 #l4-c9 
 {
+    background-image: url("bomberpng/pot.png") ;
+    background-size: cover ;
     left: 540px;
     top: 240px;
 }
@@ -444,6 +505,8 @@
 }
 #l4-c11 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 660px;
     top: 240px;
 }
@@ -468,41 +531,57 @@
 }
 #l5-c2 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 120px;
     top: 300px;
 }
 #l5-c3 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 180px;
     top: 300px;
 }
 #l5-c4 
 {
+    background-image: url("bomberpng/herb.png") ;
+    background-size: cover ;
     left: 240px;
     top: 300px;
 }
 #l5-c5 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 300px;
     top: 300px;
 }
 #l5-c6 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 360px;
     top: 300px;
 }
 #l5-c7 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 420px;
     top: 300px;
 }
 #l5-c8
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 480px;
     top: 300px;
 }
 #l5-c9 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 540px;
     top: 300px;
 }
@@ -513,6 +592,8 @@
 }
 #l5-c11 
 {
+    background-image: url("bomberpng/herb.png") ;
+    background-size: cover ;
     left: 660px;
     top: 300px;
 }
@@ -532,6 +613,8 @@
 }
 #l6-c1 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 60px;
     top: 360px;
 }
@@ -544,6 +627,8 @@
 }
 #l6-c3 
 {
+    background-image: url("bomberpng/pot.png") ;
+    background-size: cover ;
     left: 180px;
     top: 360px;
 }
@@ -556,6 +641,8 @@
 }
 #l6-c5 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 300px;
     top: 360px;
 }
@@ -580,6 +667,8 @@
 }
 #l6-c9 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 540px;
     top: 360px;
 }
@@ -592,6 +681,8 @@
 }
 #l6-c11 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 660px;
     top: 360px;
 }
@@ -611,11 +702,15 @@
 }
 #l7-c1 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 60px;
     top: 420px;
 }
 #l7-c2 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 120px;
     top: 420px;
 }
@@ -626,41 +721,57 @@
 }
 #l7-c4 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 240px;
     top: 420px;
 }
 #l7-c5 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 300px;
     top: 420px;
 }
 #l7-c6 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 360px;
     top: 420px;
 }
 #l7-c7 
 {
+    background-image: url("bomberpng/pot.png") ;
+    background-size: cover ;
     left: 420px;
     top: 420px;
 }
 #l7-c8
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 480px;
     top: 420px;
 }
 #l7-c9 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 540px;
     top: 420px;
 }
 #l7-c10 
 {
+    background-image: url("bomberpng/herb.png") ;
+    background-size: cover ;
     left: 600px;
     top: 420px;
 }
 #l7-c11 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 660px;
     top: 420px;
 }
@@ -680,6 +791,8 @@
 }
 #l8-c1 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 60px;
     top: 480px;
 }
@@ -692,6 +805,8 @@
 }
 #l8-c3 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 180px;
     top: 480px;
 }
@@ -716,6 +831,8 @@
 }
 #l8-c7 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 420px;
     top: 480px;
 }
@@ -728,6 +845,8 @@
 }
 #l8-c9 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 540px;
     top: 480px;
 }
@@ -740,6 +859,8 @@
 }
 #l8-c11 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 660px;
     top: 480px;
 }
@@ -759,26 +880,36 @@
 }
 #l9-c1 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 60px;
     top: 540px;
 }
 #l9-c2 
 {
+    background-image: url("bomberpng/herb.png") ;
+    background-size: cover ;
     left: 120px;
     top: 540px;
 }
 #l9-c3 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 180px;
     top: 540px;
 }
 #l9-c4 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 240px;
     top: 540px;
 }
 #l9-c5 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 300px;
     top: 540px;
 }
@@ -789,11 +920,15 @@
 }
 #l9-c7 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 420px;
     top: 540px;
 }
 #l9-c8
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 480px;
     top: 540px;
 }
@@ -804,11 +939,15 @@
 }
 #l9-c10 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 600px;
     top: 540px;
 }
 #l9-c11 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 660px;
     top: 540px;
 }
@@ -840,6 +979,8 @@
 }
 #l10-c3 
 {
+    background-image: url("bomberpng/herb.png") ;
+    background-size: cover ;
     left: 180px;
     top: 600px;
 }
@@ -852,6 +993,8 @@
 }
 #l10-c5 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 300px;
     top: 600px;
 }
@@ -864,6 +1007,8 @@
 }
 #l10-c7 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 420px;
     top: 600px;
 }
@@ -876,6 +1021,8 @@
 }
 #l10-c9 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 540px;
     top: 600px;
 }
@@ -912,16 +1059,22 @@
 }
 #l11-c2 
 {
+    background-image: url("bomberpng/herb.png") ;
+    background-size: cover ;
     left: 120px;
     top: 660px;
 }
 #l11-c3 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 180px;
     top: 660px;
 }
 #l11-c4 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 240px;
     top: 660px;
 }
@@ -932,21 +1085,29 @@
 }
 #l11-c6 
 {
+    background-image: url("bomberpng/pot.png") ;
+    background-size: cover ;
     left: 360px;
     top: 660px;
 }
 #l11-c7 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 420px;
     top: 660px;
 }
 #l11-c8
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 480px;
     top: 660px;
 }
 #l11-c9 
 {
+    background-image: url("bomberpng/leaf.png") ;
+    background-size: cover ;
     left: 540px;
     top: 660px;
 }
@@ -957,6 +1118,8 @@
 }
 #l11-c11 
 {
+    background-image: url("bomberpng/herb.png") ;
+    background-size: cover ;
     left: 660px;
     top: 660px;
 }
