@@ -11,9 +11,10 @@ var carteBinaire = [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
                     [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0],
                     [0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0],
                     [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]];
+
 var player = document.getElementById("player");
-var x = 2;
-var y = 3;
+var x = 1;
+var y = 1;
 var borne_y, borne_x;
 borne_y = 12; borne_x = 12;
 document.addEventListener("keydown", function(ev)

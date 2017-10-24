@@ -1,4 +1,4 @@
-/*
+/*while()
     carteBinaire.filter( document.getElementsByClassName('sol').getAttribute("data-valeur") == "0", function(block){
 
         block.style.backgroundColor = 'red';
@@ -17,4 +17,14 @@ var changeVide = documentByNameClasse('sol').style.backgroundColor   // OR TEST 
         else
         console.log('vide') ;
     }
+}
+
+for (var i = 0; i < carteBinaire.length; i++) {
+
+    for (var j = 0; j < carteBinaire.length; j++) {
+        var element = carteBinaire[i][j];
+        console.log(carteBinaire[i][j]);
+        
+    }
+    
 }*/
