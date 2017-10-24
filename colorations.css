@@ -2,11 +2,20 @@
 #player
 {
     position: absolute ;
-    left: 0px;
-    top: 0px;
     width: 60px ;
     height: 60px ;
-    background-color: goldenrod ;
+    background-image: url('bomberpng/perso3.png') ;
+    background-size: cover;
+    z-index: 2 ; 
+}
+/*Ennemi*/
+#ennemi1
+{
+    position: absolute ;
+    width: 60px ;
+    height: 60px ;
+    background-image: url('bomberpng/versus3.png') ;
+    background-size: cover;
     z-index: 2 ; 
 }
 /* Couleurs carte */
@@ -16,14 +25,12 @@
     width: 60px ;
     height: 60px ;
     background-color:#6BBE6B ;
-    border: 3px black solid ;
 }
 .bord
 {
     position: absolute ;
     width: 60px ;
     height: 60px ;
-    background-color:black ;
 }
 /* Position des deux cartes carteSol et carteObjet */
 .container
@@ -43,73 +50,99 @@
 /*lignes 0 */
 #l0-c0 
 {   
-    background-image: src="bomberpng/bar1.png" ;
+    background-image: url("bomberpng/bar1.png") ;
+    background-size: cover ;
     left: 0px;
     top: 0px;
 }
 #l0-c1 
 {
+    background-image: url("bomberpng/bar6.png") ;
+    background-size: cover ;
     left: 60px;
     top: 0px;
 }
 #l0-c2 
 {
+    background-image: url("bomberpng/bar6.png") ;
+    background-size: cover ;
     left: 120px;
     top: 0px;
 }
 #l0-c3 
 {
+    background-image: url("bomberpng/bar6.png") ;
+    background-size: cover ;
     left: 180px;
     top: 0px;
 }
 #l0-c4 
 {
+    background-image: url("bomberpng/bar6.png") ;
+    background-size: cover ;
     left: 240px;
     top: 0px;
 }
 #l0-c5 
 {
+    background-image: url("bomberpng/bar6.png") ;
+    background-size: cover ;
     left: 300px;
     top: 0px;
 }
 #l0-c6 
 {
+    background-image: url("bomberpng/bar6.png") ;
+    background-size: cover ;
     left: 360px;
     top: 0px;
 }
 #l0-c7 
 {
+    background-image: url("bomberpng/bar6.png") ;
+    background-size: cover ;
     left: 420px;
     top: 0px;
 }
 #l0-c8 
 {
+    background-image: url("bomberpng/bar6.png") ;
+    background-size: cover ;
     left: 480px;
     top: 0px;
 }
 #l0-c9 
 {
+    background-image: url("bomberpng/bar6.png") ;
+    background-size: cover ;
     left: 540px;
     top: 0px;
 }
 #l0-c10 
 {
+    background-image: url("bomberpng/bar6.png") ;
+    background-size: cover ;
     left: 600px;
     top: 0px;
 }
 #l0-c11 
 {
+    background-image: url("bomberpng/bar6.png") ;
+    background-size: cover ;
     left: 660px;
     top: 0px;
 }
 #l0-c12 
 {
-    background-image: src="bomberpng/bar2.png" ;
+    background-image: url("bomberpng/bar2.png") ;
+    background-size: cover ;
     left: 720px;
     top: 0px;
 }
 #l1-c0 
 {
+    background-image: url("bomberpng/bar5.png") ;
+    background-size: cover ;
     left: 0px;
     top: 60px;
 }
@@ -170,11 +203,15 @@
 }
 #l1-c12 
 {
+    background-image: url("bomberpng/bar5.png") ;
+    background-size: cover ;
     left: 720px;
     top: 60px;
 }
 #l2-c0 
 {
+    background-image: url("bomberpng/bar5.png") ;
+    background-size: cover ;
     left: 0px;
     top: 120px;
 }
@@ -235,11 +272,15 @@
 }
 #l2-c12 
 {
+    background-image: url("bomberpng/bar5.png") ;
+    background-size: cover ;
     left: 720px;
     top: 120px;
 }
 #l3-c0 
 {
+    background-image: url("bomberpng/bar5.png") ;
+    background-size: cover ;
     left: 0px;
     top: 180px;
 }
@@ -300,11 +341,15 @@
 }
 #l3-c12 
 {
+    background-image: url("bomberpng/bar5.png") ;
+    background-size: cover ;
     left: 720px;
     top: 180px;
 }
 #l4-c0 
 {
+    background-image: url("bomberpng/bar5.png") ;
+    background-size: cover ;
     left: 0px;
     top: 240px;
 }
@@ -365,11 +410,15 @@
 }
 #l4-c12 
 {
+    background-image: url("bomberpng/bar5.png") ;
+    background-size: cover ;
     left: 720px;
     top: 240px;
 }
 #l5-c0 
 {
+    background-image: url("bomberpng/bar5.png") ;
+    background-size: cover ;
     left: 0px;
     top: 300px;
 }
@@ -430,11 +479,15 @@
 }
 #l5-c12 
 {
+    background-image: url("bomberpng/bar5.png") ;
+    background-size: cover ;
     left: 720px;
     top: 300px;
 }
 #l6-c0 
 {
+    background-image: url("bomberpng/bar5.png") ;
+    background-size: cover ;
     left: 0px;
     top: 360px;
 }
@@ -495,11 +548,15 @@
 }
 #l6-c12 
 {
+    background-image: url("bomberpng/bar5.png") ;
+    background-size: cover ;
     left: 720px;
     top: 360px;
 }
 #l7-c0 
 {
+    background-image: url("bomberpng/bar5.png") ;
+    background-size: cover ;
     left: 0px;
     top: 420px;
 }
@@ -560,11 +617,15 @@
 }
 #l7-c12 
 {
+    background-image: url("bomberpng/bar5.png") ;
+    background-size: cover ;
     left: 720px;
     top: 420px;
 }
 #l8-c0 
 {
+    background-image: url("bomberpng/bar5.png") ;
+    background-size: cover ;
     left: 0px;
     top: 480px;
 }
@@ -625,11 +686,15 @@
 }
 #l8-c12 
 {
+    background-image: url("bomberpng/bar5.png") ;
+    background-size: cover ;
     left: 720px;
     top: 480px;
 }
 #l9-c0 
 {
+    background-image: url("bomberpng/bar5.png") ;
+    background-size: cover ;
     left: 0px;
     top: 540px;
 }
@@ -690,11 +755,15 @@
 }
 #l9-c12 
 {
+    background-image: url("bomberpng/bar5.png") ;
+    background-size: cover ;
     left: 720px;
     top: 540px;
 }
 #l10-c0 
 {
+    background-image: url("bomberpng/bar5.png") ;
+    background-size: cover ;
     left: 0px;
     top: 600px;
 }
@@ -755,11 +824,15 @@
 }
 #l10-c12 
 {
+    background-image: url("bomberpng/bar5.png") ;
+    background-size: cover ;
     left: 720px;
     top: 600px;
 }
 #l11-c0 
 {
+    background-image: url("bomberpng/bar5.png") ;
+    background-size: cover ;
     left: 0px;
     top: 660px;
 }
@@ -820,73 +893,99 @@
 }
 #l11-c12 
 {
+    background-image: url("bomberpng/bar5.png") ;
+    background-size: cover ;
     left: 720px;
     top: 660px;
 }
 #l12-c0 
 {
-    background-image: src="bomberpng/bar4.png" ;
+    background-image: url("bomberpng/bar4.png") ;
+    background-size: cover ;
     left: 0px;
     top: 720px;
 }
 #l12-c1 
 {
+    background-image: url("bomberpng/bar6.png") ;
+    background-size: cover ;
     left: 60px;
     top: 720px;
 }
 #l12-c2 
 {
+    background-image: url("bomberpng/bar6.png") ;
+    background-size: cover ;
     left: 120px;
     top: 720px;
 }
 #l12-c3 
 {
+    background-image: url("bomberpng/bar6.png") ;
+    background-size: cover ;
     left: 180px;
     top: 720px;
 }
 #l12-c4 
 {
+    background-image: url("bomberpng/bar6.png") ;
+    background-size: cover ;
     left: 240px;
     top: 720px;
 }
 #l12-c5 
 {
+    background-image: url("bomberpng/bar6.png") ;
+    background-size: cover ;
     left: 300px;
     top: 720px;
 }
 #l12-c6 
 {
+    background-image: url("bomberpng/bar6.png") ;
+    background-size: cover ;
     left: 360px;
     top: 720px;
 }
 #l12-c7 
 {
+    background-image: url("bomberpng/bar6.png") ;
+    background-size: cover ;
     left: 420px;
     top: 720px;
 }
 #l12-c8
 {
+    background-image: url("bomberpng/bar6.png") ;
+    background-size: cover ;
     left: 480px;
     top: 720px;
 }
 #l12-c9 
 {
+    background-image: url("bomberpng/bar6.png") ;
+    background-size: cover ;
     left: 540px;
     top: 720px;
 }
 #l12-c10 
 {
+    background-image: url("bomberpng/bar6.png") ;
+    background-size: cover ;
     left: 600px;
     top: 720px;
 }
 #l12-c11 
 {
+    background-image: url("bomberpng/bar6.png") ;
+    background-size: cover ;
     left: 660px;
     top: 720px;
 }
 #l12-c12 
 {
-    background-image: src="bomberpng/bar4.png" ;
+    background-image: url("bomberpng/bar3.png") ;
+    background-size: cover ;
     left: 720px;
     top: 720px;
 }
