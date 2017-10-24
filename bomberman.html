@@ -2,9 +2,12 @@
 <html>
 	<head>
 		<title>test</title>
-		<meta charset="utf-8">
+		<meta charset="utf-8"/>
+		<link href="colorations.css" rel="stylesheet" type="text/css"/>
+
 	</head>
 	<body>
+		<div id="grid" class="container"></div>
 	<script type="text/javascript">
 		var array = [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
 					 [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0],
@@ -22,6 +25,24 @@
 		var y = 1;
 		var borne_y, borne_x;
 		borne_y = 11; borne_x = 11;
+		var grid = document.getElementById("grid");
+		function	divMaker(x, y, borne_x, borne_y)
+		{
+			y = 0;
+			while (y <= borne_y)
+			{
+				x = 0;
+			 	while (x <= borne_x)
+			 	{
+					grid.innerHTML = grid.innerHTML + "<div class='case' id='"+y+x+"'style='left:"+x*65+"px;top:"+y*65+"px;'></div>";
+			 		x++;
+			 	}
+			 	y++;
+			}
+		}
+		divMaker(x, y, borne_x, borne_y);
+		x = 1;
+		y = 1;
 		document.addEventListener("keypress", function(ev)
 		{
 			if (ev.keyCode == 40 && (!(array[y + 1][x] == 0))) // down
