@@ -42,7 +42,8 @@
 /*Position des blocks des sols */
 /*lignes 0 */
 #l0-c0 
-{
+{   
+    background-image: src="bomberpng/bar1.png" ;
     left: 0px;
     top: 0px;
 }
@@ -103,6 +104,7 @@
 }
 #l0-c12 
 {
+    background-image: src="bomberpng/bar2.png" ;
     left: 720px;
     top: 0px;
 }
@@ -823,6 +825,7 @@
 }
 #l12-c0 
 {
+    background-image: src="bomberpng/bar4.png" ;
     left: 0px;
     top: 720px;
 }
@@ -883,6 +886,7 @@
 }
 #l12-c12 
 {
+    background-image: src="bomberpng/bar4.png" ;
     left: 720px;
     top: 720px;
 }
