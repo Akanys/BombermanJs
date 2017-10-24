@@ -22,11 +22,17 @@ document.addEventListener("keydown", function(ev)
     if (ev.keyCode == 40){ // down
     y += 1;
     var id = "l"+x+"-c"+y;
-    var deplacement = document.getElementById(id).getAttribute("data-valeur") ;
-    player.style.backgroundImage = 'url("bomberpng/perso3.png")';
+    var deplacement = document.getElementById(id).getAttribute("data-valeur") ;   
+        if(player.style.backgroundImage != 'url("bomberpng/perso3.png")'){
+            player.style.backgroundImage = 'url("bomberpng/perso3.png")';
+        }
+        else
+        {
+            player.style.backgroundImage = 'url("bomberpng/down2.png")';
+        }
         if(deplacement == 0){
             y -= 1;
-            console.log("Y a un mur");
+            console.log("Y a un mur");      
         }
         else
         {
@@ -38,7 +44,13 @@ document.addEventListener("keydown", function(ev)
     y -= 1;
     var id = "l"+x+"-c"+y;
     var deplacement = document.getElementById(id).getAttribute("data-valeur") ;
-    player.style.backgroundImage = 'url("bomberpng/perso1.png")';
+        if(player.style.backgroundImage != 'url("bomberpng/perso1.png")'){
+            player.style.backgroundImage = 'url("bomberpng/perso1.png")';
+        }
+        else
+        {
+            player.style.backgroundImage = 'url("bomberpng/up2.png")';
+        }
         if(deplacement == 0){
             y += 1;
             console.log("Y a un mur");
@@ -52,7 +64,13 @@ document.addEventListener("keydown", function(ev)
     x += 1;
     var id = "l"+x+"-c"+y;
     var deplacement = document.getElementById(id).getAttribute("data-valeur") ;
-    player.style.backgroundImage = 'url("bomberpng/perso2.png")';
+        if(player.style.backgroundImage != 'url("bomberpng/perso2.png")'){
+            player.style.backgroundImage = 'url("bomberpng/perso2.png")';
+        }
+        else
+        {
+            player.style.backgroundImage = 'url("bomberpng/right2.png")';
+        }
         if(deplacement == 0){
             x -= 1;
             console.log("Y a un mur");
@@ -67,7 +85,13 @@ document.addEventListener("keydown", function(ev)
     x -= 1;
     var id = "l"+x+"-c"+y;
     var deplacement = document.getElementById(id).getAttribute("data-valeur") ;
-    player.style.backgroundImage = 'url("bomberpng/perso4.png")';
+        if(player.style.backgroundImage != 'url("bomberpng/perso4.png")'){
+            player.style.backgroundImage = 'url("bomberpng/perso4.png")';
+        }
+        else
+        {
+            player.style.backgroundImage = 'url("bomberpng/left2.png")';
+        }
         if(deplacement == 0){
             x += 1;
             console.log("Y a un mur");
