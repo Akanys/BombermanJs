@@ -9,6 +9,7 @@
     z-index: 2 ; 
 }
 /*Ennemi*/
+
 #ennemi1
 {
     position: absolute ;
@@ -21,10 +22,26 @@
 /*Bombe*/
 #bombe
 {
+    width: 60px;
+    height: 60px;
+}
+#ennemi2
+{
     position: absolute ;
     width: 60px ;
     height: 60px ;
     background-image: url('bomberpng/bomb1.png') ;
+    background-image: url('bomberpng/versus7.png') ;
+    background-size: cover;
+    z-index: 2 ; 
+}
+
+#ennemi3
+{
+    position: absolute ;
+    width: 60px ;
+    height: 60px ;
+    background-image: url('bomberpng/versus11.png') ;
     background-size: cover;
     z-index: 2 ; 
 }
