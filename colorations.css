@@ -18,6 +18,16 @@
     background-size: cover;
     z-index: 2 ; 
 }
+/*Bombe*/
+#bombe
+{
+    position: absolute ;
+    width: 60px ;
+    height: 60px ;
+    background-image: url('bomberpng/bomb1.png') ;
+    background-size: cover;
+    z-index: 2 ; 
+}
 /* Couleurs carte */
 
 .case {
