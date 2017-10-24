@@ -31,7 +31,6 @@ document.addEventListener("keydown", function(ev)
         {
             player.style.top = (parseInt(document.getElementById('player').style.top) + 60) + "px";
             console.log('je suis'+ parseInt(deplacement) + 'en html');
-            console.log("je suis dans la case " + y + "," + x + ".");
         }
     }
     if (ev.keyCode == 38){ // up
@@ -45,8 +44,6 @@ document.addEventListener("keydown", function(ev)
         else
         {
             player.style.top = (parseInt(document.getElementById('player').style.top) - 60) + "px";
-            console.log('je suis'+ parseInt(deplacement) + 'en html');
-            console.log("je suis dans la case " + y + "," + x + ".");
         }
     }
     if (ev.keyCode == 39){ // right
@@ -61,7 +58,6 @@ document.addEventListener("keydown", function(ev)
         {
             player.style.left = (parseInt(document.getElementById('player').style.left) + 60) + "px";
             console.log('je suis'+ parseInt(deplacement) + 'en html');
-            console.log("je suis dans la case " + y + "," + x + ".");
         }
     }
     if (ev.keyCode == 37){ // left
@@ -75,8 +71,6 @@ document.addEventListener("keydown", function(ev)
         else
         {
             player.style.left = (parseInt(document.getElementById('player').style.left) - 60) + "px";
-            console.log('je suis'+ parseInt(deplacement) + 'en html');
-            console.log("je suis dans la case " + y + "," + x + ".");
         }
     }
 });
