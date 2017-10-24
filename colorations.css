@@ -41,20 +41,11 @@
 }
 /* Couleurs carte */
 
-.case {
-    position: absolute ;
-    width: 60px ;
-    height: 60px; 
-}
-
 .sol
 {
-    position: absolute ;
-    width: 60px ;
-    height: 60px;
     background-color:#6BBE6B ;
 }
-.bord
+.bord, .bombe, .sol, .case
 {
     position: absolute ;
     width: 60px ;
