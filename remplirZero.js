@@ -1,4 +1,9 @@
-function colorZ(vide)
+
+    carteBinaire.filter( document.getElementsByClassName('sol').getAttribute("data-valeur") == "0", function(block){
+        
+        block.style.backgroundColor = 'red';
+      });
+/*function colorZ(vide)
 {
 var vide = documentByNameClasse('sol').getAttribute("data-valeur");
 var changeVide = documentByNameClasse('sol').style.backgroundColor   // OR TEST ByID
@@ -12,4 +17,4 @@ var changeVide = documentByNameClasse('sol').style.backgroundColor   // OR TEST 
         else
         console.log('vide') ;
     }
-}
+}*/
