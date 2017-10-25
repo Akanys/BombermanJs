@@ -23,6 +23,7 @@ document.addEventListener("keydown", function(ev)
             console.log("la bombe éxplose");
             bomb.style.display = "none" ;
             // Creation des explodes 
+            // Je crées les déplacements possible des explosions
             var explode = document.createElement('div');
             explode.style.left = bomb.style.left ;
             explode.style.top = bomb.style.top;
@@ -38,6 +39,31 @@ document.addEventListener("keydown", function(ev)
             explode.style.backgroundImage = "url('bomberpng/explosion.png')" ;
             explode.style.backgroundSize = 'cover';
             explode.style.top = (parseInt(explode.style.top) + 60) +"px";
+            /*if(explode.style.getAttribute('data-valeur') == 0)
+            {
+                explode.style.visibility = "hidden" ;
+            }
+            if(explode.style.getAttribute('data-valeur') == 1);
+            {
+                explode.style.visibility = "hidden" ;
+            }
+            if(explode.style.getAttribute('data-valeur') == 2);
+            {
+                explode.style.visibility = "hidden" ;
+            }
+            if(explode.style.getAttribute('data-valeur') == 3);
+            {
+                explode.style.visibility = "hidden" ;
+            }*/
+            carteSol.appendChild(explode);
+
+            explode = document.createElement('div');
+            explode.style.left = bomb.style.left ;
+            explode.style.top = bomb.style.top;
+            explode.className ="explode";
+            explode.style.backgroundImage = "url('bomberpng/explosion.png')" ;
+            explode.style.backgroundSize = 'cover';
+            explode.style.top = (parseInt(explode.style.top) - 60) +"px";
             carteSol.appendChild(explode);
 
             explode = document.createElement('div');
@@ -59,37 +85,8 @@ document.addEventListener("keydown", function(ev)
             carteSol.appendChild(explode);
             console.log("l'explosion est créer");
 
-            // Je crée les déplacements possible des explosions
-            var idB = "l"+xB+"-c"+yB;
-            console.log("parseInt(deplacement)");
-            var deplacement = document.getElementById(idB).getAttribute("data-valeur") ;
-            console.log("parseInt(deplacement)");
-            if(deplacement == 0)
-            {
-                console.log('0');
-                explode.style.backgroundImage = "none" ;
-            }
-            if(deplacement == 1)
-            {
-                console.log('1');
-                explode.style.backgroundImage ="none" ;
-
-            }
-            if(deplacement == 2)
-            {
-                console.log('transform 2 en 1');
-                document.getElementById(idB).getAttribute("data-valeur") = "1";
-                explode.style.backgroundImage ="none" ;
-            }
-            if(deplacement == 3)
-            {
-                console.log('transform 3 en 1');
-                document.getElementById(idB).getAttribute("data-valeur") = "1";
-                explode.style.backgroundImage ="none" ;
-            }
         }, 4500);
-        setTimeout(function(){ console.log('les explosions disparait');explode.style.display = "none" ;}, 4800);        
-//    if( bomb.style.left == regarde.style.left || bomb.style.top == regarde.style.top)
+        setTimeout(function(){ console.log('les explosions disparait');carteSol.removeChild(explode);}, 4800);        
     {
         if(document.getElementById().getAttribute("data-valeur") == "2" ) // leaf
         {
