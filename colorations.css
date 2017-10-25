@@ -13,6 +13,7 @@ body{
     background-size: cover;
     z-index: 2 ; 
 }
+/*Explode*/
 /*Ennemi*/
 
 #ennemi1
@@ -50,7 +51,7 @@ body{
 {
     background-color:#6BBE6B ;
 }
-.bord, .bombe, .sol, .case
+.bord, .bombe, .sol, .case, .explode
 {
     position: absolute ;
     width: 60px ;
