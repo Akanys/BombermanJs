@@ -21,78 +21,76 @@ document.addEventListener("keydown", function(ev)
         setTimeout(function(){ console.log('devien rouge');bomb.style.backgroundImage = "url('bomberpng/bomb2.png')" ;  }, 3500);
         setTimeout(function(){
             console.log("la bombe éxplose");
+            bomb.style.display = "none" ;
             // Creation des explodes 
             var explode = document.createElement('div');
             explode.style.left = bomb.style.left ;
             explode.style.top = bomb.style.top;
             explode.className ="explode";
-            carteSol.appendChild(explode);
             explode.style.backgroundImage = "url('bomberpng/explosion.png')" ;
             explode.style.backgroundSize = 'cover';
-            console.log("l'explosion est créer")
-            // Je créer les deplacements possible des explosions
-            var haut = ;
-            var gauche = ;
-            var bas = ;
-            var droit = ;
-            if(haut == deplacement == 0)
-            if(haut == deplacement == 1)
-            if(haut == deplacement == 2)
-            if(haut == deplacement == 3)
-            if(gauche == deplacement == 0)
-            if(gauche == deplacement == 1)
-            if(gauche == deplacement == 2)
-            if(gauche == deplacement == 3)
-            if(bas == deplacement == 0)
-            if(bas == deplacement == 1)
-            if(bas == deplacement == 2)
-            if(bas == deplacement == 3)
-            if(droit == deplacement == 0)
-            if(droit == deplacement == 1)
-            if(droit == deplacement == 2)
-            if(droit == deplacement == 3)
-            attribute2 = document.getElementsByClassName("leaf");
-            attribute3 = document.getElementsByClassName("pot");
-            console.log(attribute2);
-            var regarde = [player, ennemi1, ennemi2, ennemi3];
+            carteSol.appendChild(explode);
 
-            for (var i = 0; i < attribute2.length; i++) 
+            explode = document.createElement('div');
+            explode.style.left = bomb.style.left ;
+            explode.style.top = bomb.style.top;
+            explode.className ="explode";
+            explode.style.backgroundImage = "url('bomberpng/explosion.png')" ;
+            explode.style.backgroundSize = 'cover';
+            explode.style.top = (parseInt(explode.style.top) + 60) +"px";
+            carteSol.appendChild(explode);
+
+            explode = document.createElement('div');
+            explode.style.left = bomb.style.left ;
+            explode.style.top = bomb.style.top;
+            explode.className ="explode";
+            explode.style.backgroundImage = "url('bomberpng/explosion.png')" ;
+            explode.style.backgroundSize = 'cover';
+            explode.style.top = (parseInt(explode.style.left) - 60) +"px";
+            carteSol.appendChild(explode);
+
+            explode = document.createElement('div');
+            explode.style.left = bomb.style.left ;
+            explode.style.top = bomb.style.top;
+            explode.className ="explode";
+            explode.style.backgroundImage = "url('bomberpng/explosion.png')" ;
+            explode.style.backgroundSize = 'cover';
+            explode.style.left = (parseInt(explode.style.left) + 60) +"px";
+            carteSol.appendChild(explode);
+            console.log("l'explosion est créer");
+
+            // Je crée les déplacements possible des explosions
+            var idB = "l"+xB+"-c"+yB;
+            console.log("parseInt(deplacement)");
+            var deplacement = document.getElementById(idB).getAttribute("data-valeur") ;
+            console.log("parseInt(deplacement)");
+            if(deplacement == 0)
             {
-                regarde.push(attribute2[i]);
+                console.log('0');
+                explode.style.backgroundImage = "none" ;
             }
-            for (var i = 0; i < attribute3.length; i++) 
+            if(deplacement == 1)
             {
-                regarde.push(attribute3[i]);
+                console.log('1');
+                explode.style.backgroundImage ="none" ;
+
             }
-            console.log(regarde);
-            var id = "l"+x+"-c"+y;
-            var deplacementImg = document.getElementById(id).getAttribute("data-valeur") ;   
-            if(deplacementImg == 0)
+            if(deplacement == 2)
             {
-            console.log("Pff");  
-                
+                console.log('transform 2 en 1');
+                document.getElementById(idB).getAttribute("data-valeur") = "1";
+                explode.style.backgroundImage ="none" ;
             }
-            if(deplacementImg == 2)
+            if(deplacement == 3)
             {
-            
-            console.log('leaf disparais');
+                console.log('transform 3 en 1');
+                document.getElementById(idB).getAttribute("data-valeur") = "1";
+                explode.style.backgroundImage ="none" ;
             }
-        
-       /* {
-            bomb.style.top = (parseInt(document.getElementById('player').style.top) + 60) + "px";
-            bomb.style.top = (parseInt(document.getElementById('player').style.top) - 60) + "px";
-            bomb.style.left = (parseInt(document.getElementById('player').style.top) - 60) + "px";
-            bomb.style.left = (parseInt(document.getElementById('player').style.top) + 60) + "px";
-            console.log('je suis'+ parseInt(deplacementImg) + 'en html');
-            }
-            if(top.getAttribute('data-valeur') == 2 )
-            {
-                console.log(top.getAttribute);
-            }*/
         }, 4500);
         setTimeout(function(){ console.log('les explosions disparait');explode.style.display = "none" ;}, 4800);        
 //    if( bomb.style.left == regarde.style.left || bomb.style.top == regarde.style.top)
-   /* {
+    {
         if(document.getElementById().getAttribute("data-valeur") == "2" ) // leaf
         {
             explose.style.left = document.getElementById(id).style.left ;
@@ -109,7 +107,7 @@ document.addEventListener("keydown", function(ev)
             bomb.style.left = player.style.left ;
             bomb.style.top = player.style.top;
         }
-    }*/
+    }
 
     }
 });
