@@ -83,77 +83,77 @@ body{
 }
 #l0-c1 
 {
-    background-image: url("bomberpng/bar6.png") ;
+    background-image: url("bomberpng/bar5.png") ;
     background-size: cover ;
     left: 60px;
     top: 0px;
 }
 #l0-c2 
 {
-    background-image: url("bomberpng/bar6.png") ;
+    background-image: url("bomberpng/bar5.png") ;
     background-size: cover ;
     left: 120px;
     top: 0px;
 }
 #l0-c3 
 {
-    background-image: url("bomberpng/bar6.png") ;
+    background-image: url("bomberpng/bar5.png") ;
     background-size: cover ;
     left: 180px;
     top: 0px;
 }
 #l0-c4 
 {
-    background-image: url("bomberpng/bar6.png") ;
+    background-image: url("bomberpng/bar5.png") ;
     background-size: cover ;
     left: 240px;
     top: 0px;
 }
 #l0-c5 
 {
-    background-image: url("bomberpng/bar6.png") ;
+    background-image: url("bomberpng/bar5.png") ;
     background-size: cover ;
     left: 300px;
     top: 0px;
 }
 #l0-c6 
 {
-    background-image: url("bomberpng/bar6.png") ;
+    background-image: url("bomberpng/bar5.png") ;
     background-size: cover ;
     left: 360px;
     top: 0px;
 }
 #l0-c7 
 {
-    background-image: url("bomberpng/bar6.png") ;
+    background-image: url("bomberpng/bar5.png") ;
     background-size: cover ;
     left: 420px;
     top: 0px;
 }
 #l0-c8 
 {
-    background-image: url("bomberpng/bar6.png") ;
+    background-image: url("bomberpng/bar5.png") ;
     background-size: cover ;
     left: 480px;
     top: 0px;
 }
 #l0-c9 
 {
-    background-image: url("bomberpng/bar6.png") ;
+    background-image: url("bomberpng/bar5.png") ;
     background-size: cover ;
     left: 540px;
     top: 0px;
 }
 #l0-c10 
 {
-    background-image: url("bomberpng/bar6.png") ;
+    background-image: url("bomberpng/bar5.png") ;
     background-size: cover ;
     left: 600px;
     top: 0px;
 }
 #l0-c11 
 {
-    background-image: url("bomberpng/bar6.png") ;
+    background-image: url("bomberpng/bar5.png") ;
     background-size: cover ;
     left: 660px;
     top: 0px;
@@ -167,7 +167,7 @@ body{
 }
 #l1-c0 
 {
-    background-image: url("bomberpng/bar5.png") ;
+    background-image: url("bomberpng/bar6.png") ;
     background-size: cover ;
     left: 0px;
     top: 60px;
@@ -186,28 +186,24 @@ body{
 }
 #l1-c3 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 180px;
     top: 60px;
 }
 #l1-c4 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 240px;
     top: 60px;
 }
 #l1-c5 
 {
-    background-image: url("bomberpng/pot.png") ;
     background-size: cover ;
     left: 300px;
     top: 60px;
 }
 #l1-c6 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 360px;
     top: 60px;
@@ -219,14 +215,12 @@ body{
 }
 #l1-c8
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 480px;
     top: 60px;
 }
 #l1-c9 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 540px;
     top: 60px;
@@ -243,14 +237,14 @@ body{
 }
 #l1-c12 
 {
-    background-image: url("bomberpng/bar5.png") ;
+    background-image: url("bomberpng/bar6.png") ;
     background-size: cover ;
     left: 720px;
     top: 60px;
 }
 #l2-c0 
 {
-    background-image: url("bomberpng/bar5.png") ;
+    background-image: url("bomberpng/bar6.png") ;
     background-size: cover ;
     left: 0px;
     top: 120px;
@@ -262,63 +256,54 @@ body{
 }
 #l2-c2 
 {
-    background-image: url('bomberpng/souche.png');
     background-size: cover ;
     left: 120px;
     top: 120px;
 }
 #l2-c3 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 180px;
     top: 120px;
 }
 #l2-c4 
 {
-    background-image: url('bomberpng/souche.png');
     background-size: cover ;
     left: 240px;
     top: 120px;
 }
 #l2-c5 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 300px;
     top: 120px;
 }
 #l2-c6 
 {
-    background-image: url('bomberpng/souche.png');
     background-size: cover ;
     left: 360px;
     top: 120px;
 }
 #l2-c7 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 420px;
     top: 120px;
 }
 #l2-c8
 {
-    background-image: url('bomberpng/souche.png');
     background-size: cover ;
     left: 480px;
     top: 120px;
 }
 #l2-c9 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 540px;
     top: 120px;
 }
 #l2-c10 
 {
-    background-image: url('bomberpng/souche.png');
     background-size: cover ;
     left: 600px;
     top: 120px;
@@ -332,21 +317,20 @@ body{
 }
 #l2-c12 
 {
-    background-image: url("bomberpng/bar5.png") ;
+    background-image: url("bomberpng/bar6.png") ;
     background-size: cover ;
     left: 720px;
     top: 120px;
 }
 #l3-c0 
 {
-    background-image: url("bomberpng/bar5.png") ;
+    background-image: url("bomberpng/bar6.png") ;
     background-size: cover ;
     left: 0px;
     top: 180px;
 }
 #l3-c1 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 60px;
     top: 180px;
@@ -358,14 +342,12 @@ body{
 }
 #l3-c3 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 180px;
     top: 180px;
 }
 #l3-c4 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 240px;
     top: 180px;
@@ -379,21 +361,18 @@ body{
 }
 #l3-c6 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 360px;
     top: 180px;
 }
 #l3-c7 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 420px;
     top: 180px;
 }
 #l3-c8
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 480px;
     top: 180px;
@@ -407,119 +386,106 @@ body{
 }
 #l3-c10 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 600px;
     top: 180px;
 }
 #l3-c11 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 660px;
     top: 180px;
 }
 #l3-c12 
 {
-    background-image: url("bomberpng/bar5.png") ;
+    background-image: url("bomberpng/bar6.png") ;
     background-size: cover ;
     left: 720px;
     top: 180px;
 }
 #l4-c0 
 {
-    background-image: url("bomberpng/bar5.png") ;
+    background-image: url("bomberpng/bar6.png") ;
     background-size: cover ;
     left: 0px;
     top: 240px;
 }
 #l4-c1 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 60px;
     top: 240px;
 }
 #l4-c2 
 {
-    background-image: url('bomberpng/souche.png');
     background-size: cover ;
     left: 120px;
     top: 240px;
 }
 #l4-c3 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 180px;
     top: 240px;
 }
 #l4-c4 
 {
-    background-image: url('bomberpng/souche.png');
     background-size: cover ;
     left: 240px;
     top: 240px;
 }
 #l4-c5 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 300px;
     top: 240px;
 }
 #l4-c6 
 {
-    background-image: url('bomberpng/souche.png');
     background-size: cover ;
     left: 360px;
     top: 240px;
 }
 #l4-c7 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 420px;
     top: 240px;
 }
 #l4-c8
 {
-    background-image: url('bomberpng/souche.png');
     background-size: cover ;
     left: 480px;
     top: 240px;
 }
 #l4-c9 
 {
-    background-image: url("bomberpng/pot.png") ;
     background-size: cover ;
     left: 540px;
     top: 240px;
 }
 #l4-c10 
 {
-    background-image: url('bomberpng/souche.png');
     background-size: cover ;
     left: 600px;
     top: 240px;
 }
 #l4-c11 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 660px;
     top: 240px;
 }
 #l4-c12 
 {
-    background-image: url("bomberpng/bar5.png") ;
+    background-image: url("bomberpng/bar6.png") ;
     background-size: cover ;
     left: 720px;
     top: 240px;
 }
 #l5-c0 
 {
-    background-image: url("bomberpng/bar5.png") ;
+    background-image: url("bomberpng/bar6.png") ;
     background-size: cover ;
     left: 0px;
     top: 300px;
@@ -531,14 +497,12 @@ body{
 }
 #l5-c2 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 120px;
     top: 300px;
 }
 #l5-c3 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 180px;
     top: 300px;
@@ -552,35 +516,30 @@ body{
 }
 #l5-c5 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 300px;
     top: 300px;
 }
 #l5-c6 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 360px;
     top: 300px;
 }
 #l5-c7 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 420px;
     top: 300px;
 }
 #l5-c8
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 480px;
     top: 300px;
 }
 #l5-c9 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 540px;
     top: 300px;
@@ -599,56 +558,50 @@ body{
 }
 #l5-c12 
 {
-    background-image: url("bomberpng/bar5.png") ;
+    background-image: url("bomberpng/bar6.png") ;
     background-size: cover ;
     left: 720px;
     top: 300px;
 }
 #l6-c0 
 {
-    background-image: url("bomberpng/bar5.png") ;
+    background-image: url("bomberpng/bar6.png") ;
     background-size: cover ;
     left: 0px;
     top: 360px;
 }
 #l6-c1 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 60px;
     top: 360px;
 }
 #l6-c2 
 {
-    background-image: url('bomberpng/souche.png');
     background-size: cover ;
     left: 120px;
     top: 360px;
 }
 #l6-c3 
 {
-    background-image: url("bomberpng/pot.png") ;
     background-size: cover ;
     left: 180px;
     top: 360px;
 }
 #l6-c4 
 {
-    background-image: url('bomberpng/souche.png');
     background-size: cover ;
     left: 240px;
     top: 360px;
 }
 #l6-c5 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 300px;
     top: 360px;
 }
 #l6-c6 
 {
-    background-image: url('bomberpng/souche.png');
     background-size: cover ;
     left: 360px;
     top: 360px;
@@ -660,56 +613,50 @@ body{
 }
 #l6-c8
 {
-    background-image: url('bomberpng/souche.png');
     background-size: cover ;
     left: 480px;
     top: 360px;
 }
 #l6-c9 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 540px;
     top: 360px;
 }
 #l6-c10 
 {
-    background-image: url('bomberpng/souche.png');
     background-size: cover ;
     left: 600px;
     top: 360px;
 }
 #l6-c11 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 660px;
     top: 360px;
 }
 #l6-c12 
 {
-    background-image: url("bomberpng/bar5.png") ;
+    background-image: url("bomberpng/bar6.png") ;
     background-size: cover ;
     left: 720px;
     top: 360px;
 }
 #l7-c0 
 {
-    background-image: url("bomberpng/bar5.png") ;
+    background-image: url("bomberpng/bar6.png") ;
     background-size: cover ;
     left: 0px;
     top: 420px;
 }
 #l7-c1 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 60px;
     top: 420px;
 }
 #l7-c2 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 120px;
     top: 420px;
@@ -721,42 +668,36 @@ body{
 }
 #l7-c4 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 240px;
     top: 420px;
 }
 #l7-c5 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 300px;
     top: 420px;
 }
 #l7-c6 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 360px;
     top: 420px;
 }
 #l7-c7 
 {
-    background-image: url("bomberpng/pot.png") ;
     background-size: cover ;
     left: 420px;
     top: 420px;
 }
 #l7-c8
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 480px;
     top: 420px;
 }
 #l7-c9 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 540px;
     top: 420px;
@@ -770,49 +711,44 @@ body{
 }
 #l7-c11 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 660px;
     top: 420px;
 }
 #l7-c12 
 {
-    background-image: url("bomberpng/bar5.png") ;
+    background-image: url("bomberpng/bar6.png") ;
     background-size: cover ;
     left: 720px;
     top: 420px;
 }
 #l8-c0 
 {
-    background-image: url("bomberpng/bar5.png") ;
+    background-image: url("bomberpng/bar6.png") ;
     background-size: cover ;
     left: 0px;
     top: 480px;
 }
 #l8-c1 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 60px;
     top: 480px;
 }
 #l8-c2 
 {
-    background-image: url('bomberpng/souche.png');
     background-size: cover ;
     left: 120px;
     top: 480px;
 }
 #l8-c3 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 180px;
     top: 480px;
 }
 #l8-c4 
 {
-    background-image: url('bomberpng/souche.png');
     background-size: cover ;
     left: 240px;
     top: 480px;
@@ -824,63 +760,56 @@ body{
 }
 #l8-c6 
 {
-    background-image: url('bomberpng/souche.png');
     background-size: cover ;
     left: 360px;
     top: 480px;
 }
 #l8-c7 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 420px;
     top: 480px;
 }
 #l8-c8
 {
-    background-image: url('bomberpng/souche.png');
     background-size: cover ;
     left: 480px;
     top: 480px;
 }
 #l8-c9 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 540px;
     top: 480px;
 }
 #l8-c10 
 {
-    background-image: url('bomberpng/souche.png');
     background-size: cover ;
     left: 600px;
     top: 480px;
 }
 #l8-c11 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 660px;
     top: 480px;
 }
 #l8-c12 
 {
-    background-image: url("bomberpng/bar5.png") ;
+    background-image: url("bomberpng/bar6.png") ;
     background-size: cover ;
     left: 720px;
     top: 480px;
 }
 #l9-c0 
 {
-    background-image: url("bomberpng/bar5.png") ;
+    background-image: url("bomberpng/bar6.png") ;
     background-size: cover ;
     left: 0px;
     top: 540px;
 }
 #l9-c1 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 60px;
     top: 540px;
@@ -894,21 +823,18 @@ body{
 }
 #l9-c3 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 180px;
     top: 540px;
 }
 #l9-c4 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 240px;
     top: 540px;
 }
 #l9-c5 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 300px;
     top: 540px;
@@ -920,14 +846,12 @@ body{
 }
 #l9-c7 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 420px;
     top: 540px;
 }
 #l9-c8
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 480px;
     top: 540px;
@@ -939,28 +863,26 @@ body{
 }
 #l9-c10 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 600px;
     top: 540px;
 }
 #l9-c11 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 660px;
     top: 540px;
 }
 #l9-c12 
 {
-    background-image: url("bomberpng/bar5.png") ;
+    background-image: url("bomberpng/bar6.png") ;
     background-size: cover ;
     left: 720px;
     top: 540px;
 }
 #l10-c0 
 {
-    background-image: url("bomberpng/bar5.png") ;
+    background-image: url("bomberpng/bar6.png") ;
     background-size: cover ;
     left: 0px;
     top: 600px;
@@ -972,7 +894,6 @@ body{
 }
 #l10-c2 
 {
-    background-image: url('bomberpng/souche.png');
     background-size: cover ;
     left: 120px;
     top: 600px;
@@ -986,49 +907,42 @@ body{
 }
 #l10-c4 
 {
-    background-image: url('bomberpng/souche.png');
     background-size: cover ;
     left: 240px;
     top: 600px;
 }
 #l10-c5 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 300px;
     top: 600px;
 }
 #l10-c6 
 {
-    background-image: url('bomberpng/souche.png');
     background-size: cover ;
     left: 360px;
     top: 600px;
 }
 #l10-c7 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 420px;
     top: 600px;
 }
 #l10-c8
 {
-    background-image: url('bomberpng/souche.png');
     background-size: cover ;
     left: 480px;
     top: 600px;
 }
 #l10-c9 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 540px;
     top: 600px;
 }
 #l10-c10 
 {
-    background-image: url('bomberpng/souche.png');
     background-size: cover ;
     left: 600px;
     top: 600px;
@@ -1040,14 +954,14 @@ body{
 }
 #l10-c12 
 {
-    background-image: url("bomberpng/bar5.png") ;
+    background-image: url("bomberpng/bar6.png") ;
     background-size: cover ;
     left: 720px;
     top: 600px;
 }
 #l11-c0 
 {
-    background-image: url("bomberpng/bar5.png") ;
+    background-image: url("bomberpng/bar6.png") ;
     background-size: cover ;
     left: 0px;
     top: 660px;
@@ -1066,14 +980,12 @@ body{
 }
 #l11-c3 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 180px;
     top: 660px;
 }
 #l11-c4 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 240px;
     top: 660px;
@@ -1085,28 +997,24 @@ body{
 }
 #l11-c6 
 {
-    background-image: url("bomberpng/pot.png") ;
     background-size: cover ;
     left: 360px;
     top: 660px;
 }
 #l11-c7 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 420px;
     top: 660px;
 }
 #l11-c8
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 480px;
     top: 660px;
 }
 #l11-c9 
 {
-    background-image: url("bomberpng/leaf.png") ;
     background-size: cover ;
     left: 540px;
     top: 660px;
@@ -1125,7 +1033,7 @@ body{
 }
 #l11-c12 
 {
-    background-image: url("bomberpng/bar5.png") ;
+    background-image: url("bomberpng/bar6.png") ;
     background-size: cover ;
     left: 720px;
     top: 660px;
@@ -1139,77 +1047,77 @@ body{
 }
 #l12-c1 
 {
-    background-image: url("bomberpng/bar6.png") ;
+    background-image: url("bomberpng/bar5.png") ;
     background-size: cover ;
     left: 60px;
     top: 720px;
 }
 #l12-c2 
 {
-    background-image: url("bomberpng/bar6.png") ;
+    background-image: url("bomberpng/bar5.png") ;
     background-size: cover ;
     left: 120px;
     top: 720px;
 }
 #l12-c3 
 {
-    background-image: url("bomberpng/bar6.png") ;
+    background-image: url("bomberpng/bar5.png") ;
     background-size: cover ;
     left: 180px;
     top: 720px;
 }
 #l12-c4 
 {
-    background-image: url("bomberpng/bar6.png") ;
+    background-image: url("bomberpng/bar5.png") ;
     background-size: cover ;
     left: 240px;
     top: 720px;
 }
 #l12-c5 
 {
-    background-image: url("bomberpng/bar6.png") ;
+    background-image: url("bomberpng/bar5.png") ;
     background-size: cover ;
     left: 300px;
     top: 720px;
 }
 #l12-c6 
 {
-    background-image: url("bomberpng/bar6.png") ;
+    background-image: url("bomberpng/bar5.png") ;
     background-size: cover ;
     left: 360px;
     top: 720px;
 }
 #l12-c7 
 {
-    background-image: url("bomberpng/bar6.png") ;
+    background-image: url("bomberpng/bar5.png") ;
     background-size: cover ;
     left: 420px;
     top: 720px;
 }
 #l12-c8
 {
-    background-image: url("bomberpng/bar6.png") ;
+    background-image: url("bomberpng/bar5.png") ;
     background-size: cover ;
     left: 480px;
     top: 720px;
 }
 #l12-c9 
 {
-    background-image: url("bomberpng/bar6.png") ;
+    background-image: url("bomberpng/bar5.png") ;
     background-size: cover ;
     left: 540px;
     top: 720px;
 }
 #l12-c10 
 {
-    background-image: url("bomberpng/bar6.png") ;
+    background-image: url("bomberpng/bar5.png") ;
     background-size: cover ;
     left: 600px;
     top: 720px;
 }
 #l12-c11 
 {
-    background-image: url("bomberpng/bar6.png") ;
+    background-image: url("bomberpng/bar5.png") ;
     background-size: cover ;
     left: 660px;
     top: 720px;
@@ -1220,4 +1128,16 @@ body{
     background-size: cover ;
     left: 720px;
     top: 720px;
+}
+.bloc {
+    background-size: cover;
+    background-image: url('bomberpng/souche.png')
+}
+.pot {
+    background-size: cover;
+    background-image: url('bomberpng/pot.png')
+}
+.leaf {
+    background-size: cover;
+    background-image: url('bomberpng/leaf.png')
 }

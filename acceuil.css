@@ -1,0 +1,174 @@
+div {
+
+    border: 2px solid rgba(255,2,2,1);
+
+
+    }
+
+@media screen and (min-height: 200px)and (max-height: 640px) { 
+
+   
+
+#accueil{
+
+            
+
+background-image :url("Acceuil.jpg");
+
+height: 400px;
+
+background-size: cover;            
+
+}
+
+
+
+#NP{
+
+    width: 590px;
+
+    margin: auto;
+
+    
+
+}
+
+#o{
+
+    width: 283px;
+
+    margin: auto;
+
+}
+
+#bouton{
+
+    width: 120px;
+
+
+
+}   
+
+}
+
+
+
+
+
+
+
+@media screen and (min-height: 641px) and (max-height: 800px) {
+
+    
+
+#accueil{
+
+             
+
+
+
+ background-image :url("Acceuil.jpg");
+
+ height: 700px;
+
+ background-size: cover;             
+
+}
+
+
+
+#NP{
+
+    width: 590px;
+
+    margin: auto;
+
+    
+
+}
+
+#o{
+
+    width: 283px;
+
+    margin: auto;
+
+}
+
+#bouton{
+
+    width: 120px;
+
+
+
+}   
+
+}
+
+@media screen and (min-height: 801px)and (max-height: 4000px)  {
+
+    
+
+#accueil{
+
+
+
+
+
+background-image :url("Acceuil.jpg");
+
+height: 1000px;
+
+background-size: cover;
+
+}
+
+
+
+#NP{
+
+    width: 590px;
+
+    margin: auto;
+
+    padding-top: 550px;
+
+    margin-left: 667px;
+
+
+
+}
+
+#o{
+
+    margin: auto;
+
+    margin-left: 790px;
+
+    width: 283px;    
+
+    padding-top: 108px;
+
+}
+
+}
+
+#bouton{
+
+    width: 120px;
+
+    display: inline-block;
+
+
+
+}   
+
+
+
+#selecteur{
+
+    padding-top: 326px;
+
+    margin-left: 130px;
+
+}

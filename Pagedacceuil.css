@@ -1,0 +1,25 @@
+/* CSS BODY */
+
+body {
+	background-image: url("Accueil.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 400px ; 
+	width: 100% ;
+}
+
+/* CSS accueil */
+
+#NewGame {
+	margin: auto;
+	margin-top: 485px;
+	width: 590px;
+	text-align: center;
+}
+
+#Options {
+	margin: auto;
+	margin-top: 72px;
+	width: 283px;
+	text-align: center;    
+}

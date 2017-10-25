@@ -18,7 +18,7 @@ function versus()
     {
         ennemi1.style.backgroundImage = 'url("bomberpng/versus3-2.png")';
     }
-        if(deplacement == 0){
+        if(deplacement == 0 || deplacement == 2 || deplacement == 3){
             yvs -= 1;
         }
         else
@@ -37,7 +37,7 @@ function versus()
     {
         ennemi1.style.backgroundImage = 'url("bomberpng/versus1-2.png")';
     }
-        if(deplacement == 0){
+        if(deplacement == 0 || deplacement == 2 || deplacement == 3){
             yvs += 1;
 
         }
@@ -57,7 +57,7 @@ function versus()
     {
         ennemi1.style.backgroundImage = 'url("bomberpng/versus2-2.png")';
     }
-        if(deplacement == 0){
+        if(deplacement == 0 || deplacement == 2 || deplacement == 3){
             xvs -= 1;
 
         }
@@ -77,7 +77,7 @@ function versus()
     {
         ennemi1.style.backgroundImage = 'url("bomberpng/versus4-2.png")';
     }
-        if(deplacement == 0){
+        if(deplacement == 0 || deplacement == 2 || deplacement == 3){
             xvs += 1;
         }
         else
@@ -107,7 +107,7 @@ function versus2()
     {
         ennemi2.style.backgroundImage = 'url("bomberpng/versus7-2.png")';
     }
-        if(deplacement == 0){
+        if(deplacement == 0 || deplacement == 2 || deplacement == 3){
             yvs1 -= 1;
         }
         else
@@ -126,7 +126,7 @@ function versus2()
     {
         ennemi2.style.backgroundImage = 'url("bomberpng/versus5-2.png")';
     }
-        if(deplacement == 0){
+        if(deplacement == 0 || deplacement == 2 || deplacement == 3){
             yvs1 += 1;
 
         }
@@ -146,7 +146,7 @@ function versus2()
     {
         ennemi2.style.backgroundImage = 'url("bomberpng/versus6-2.png")';
     }
-        if(deplacement == 0){
+        if(deplacement == 0 || deplacement == 2 || deplacement == 3){
             xvs1 -= 1;
 
         }
@@ -166,7 +166,7 @@ function versus2()
     {
         ennemi2.style.backgroundImage = 'url("bomberpng/versus8-2.png")';
     }
-        if(deplacement == 0){
+        if(deplacement == 0 || deplacement == 2 || deplacement == 3){
             xvs1 += 1;
         }
         else
@@ -196,7 +196,7 @@ function versus3()
     {
         ennemi3.style.backgroundImage = 'url("bomberpng/versus11-2.png")';
     }
-        if(deplacement == 0){
+        if(deplacement == 0 || deplacement == 2 || deplacement == 3){
             yvs2 -= 1;
         }
         else
@@ -215,7 +215,7 @@ function versus3()
     {
         ennemi3.style.backgroundImage = 'url("bomberpng/versus9-2.png")';
     }
-        if(deplacement == 0){
+        if(deplacement == 0 || deplacement == 2 || deplacement == 3){
             yvs2 += 1;
 
         }
@@ -235,7 +235,7 @@ function versus3()
     {
         ennemi3.style.backgroundImage = 'url("bomberpng/versus10-2.png")';
     }
-        if(deplacement == 0){
+        if(deplacement == 0 || deplacement == 2 || deplacement == 3){
             xvs2 -= 1;
 
         }
@@ -255,7 +255,7 @@ function versus3()
     {
         ennemi3.style.backgroundImage = 'url("bomberpng/versus12-2.png")';
     }
-        if(deplacement == 0){
+        if(deplacement == 0 || deplacement == 2 || deplacement == 3){
             xvs2 += 1;
         }
         else
