@@ -27,7 +27,7 @@
         <div class="bord" id="l1-c0" data-valeur='0'></div>
         <div class="sol" id="l1-c1" data-valeur='1'></div>
         <div class="sol" id="l1-c2" data-valeur='1'></div>
-        <div class="sol" id="l1-c3" data-valeur='0'></div>
+        <div class="sol leaf" id="l1-c3" data-valeur='2'></div>
         <div class="sol" id="l1-c4" data-valeur='0'></div>
         <div class="sol" id="l1-c5" data-valeur='1'></div>
         <div class="sol" id="l1-c6" data-valeur='0'></div>
@@ -53,7 +53,7 @@
         <div class="bord" id="l2-c12" data-valeur='0'></div>
         <!-- Ligne 3 -->
         <div class="bord" id="l3-c0" data-valeur='0'></div>
-        <div class="sol" id="l3-c1" data-valeur='0'></div>
+        <div class="sol pot" id="l3-c1" data-valeur='3'></div>
         <div class="sol" id="l3-c2" data-valeur='0'></div>
         <div class="sol" id="l3-c3" data-valeur='0'></div>
         <div class="sol" id="l3-c4" data-valeur='0'></div>
@@ -191,14 +191,15 @@
         <div class="bord" id="l12-c10" data-valeur='0'></div>
         <div class="bord" id="l12-c11" data-valeur='0'></div>
         <div class="bord" id="l12-c12" data-valeur='0'></div>
-        <div id="player" style="left:60px;top:60px;"></div>
-        <div id="ennemi1" class="ennemis" style="left:660px;top:60px;"></div>
-        <div id="ennemi2" class="ennemis" style="left:60px;top:660px;"></div>
-        <div id="ennemi3" class="ennemis" style="left:660px;top:660px;"></div>
+        <div id="player" style="left:60px;top:60px;" data-vie="30"></div>
+        <div id="ennemi1" class="ennemis" style="left:660px;top:60px;" data-vie="10"></div>
+        <div id="ennemi2" class="ennemis" style="left:60px;top:660px;" data-vie="10"></div>
+        <div id="ennemi3" class="ennemis" style="left:660px;top:660px;" data-vie="10"></div>
 </div>
 <script src="commandePerso.js"></script>
 <script src="remplirZero.js"></script>
 <script src="ennemis.js"></script>
-<script src="test.js"></script>
+<script src="bombe.js"></script>
+<!--<script src="vie.js"></script>-->
 </body>
 </html>

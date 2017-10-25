@@ -24,12 +24,6 @@ body{
     background-size: cover;
     z-index: 2 ; 
 }
-/*Bombe*/
-#bombe
-{
-    width: 60px;
-    height: 60px;
-}
 #ennemi2
 {
     position: absolute ;

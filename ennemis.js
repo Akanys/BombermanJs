@@ -182,7 +182,7 @@ var yvs2 = 11;
 
 setInterval(versus3, 700) 
 
-function versus3()
+/*function versus3()
 {
     var aleatoire = Math.floor(Math.random()*4);
     if (aleatoire == 0){ // down
@@ -264,3 +264,4 @@ function versus3()
         }
     }
 };
+*/
