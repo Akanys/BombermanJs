@@ -86,7 +86,12 @@ document.addEventListener("keydown", function(ev)
             console.log("l'explosion est créer");
 
         }, 4500);
-        setTimeout(function(){ console.log('les explosions disparait');carteSol.removeChild(explode);}, 4800);        
+        setTimeout(function(){ console.log('les explosions disparait');
+        var elements = document.getElementsByClassName('explode');
+        for (var i = 0; i < elements.length; i++) {
+            var element = elements[i];
+            carteSol.removeChild(element);
+        };}, 4800);        
     {
         if(document.getElementById().getAttribute("data-valeur") == "2" ) // leaf
         {
