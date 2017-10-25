@@ -63,8 +63,6 @@ document.addEventListener("keydown", function(ev)
             player.style.backgroundImage = 'url("bomberpng/down2.png")';
         }
         if(deplacement == 0 || deplacement == 2 || deplacement == 3){
-            y -= 1;
-            console.log("Y a un mur");      
             y -= 1;     
         }
         else
